@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>COS 598A: AI Safety & Alignment</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1 style="margin-bottom:0.5em; color: #EE7F2D;">
+        <a href="index.html" style="text-decoration: none; color: inherit;">
+          <strong style="font-weight:700">COS 598A:</strong> AI Safety & Alignment
+        </a>
+      </h1>
+      
+      <div class="header-row">
+        <div class="course-info">
+          <h5 style="color: #EE7F2D;">PRINCETON UNIVERSITY, SPRING 2024</h5>
+          <h5><strong>Location:</strong> TBD</h5>
+          <h5><strong>Time:</strong> Mondays 1:30pm-4:20pm</h5>
+        </div>
+        <div class="nav-links">
+          <a href="#" style="font-weight:600; color: #000;">Home</a> &nbsp;&nbsp;&nbsp;| 
+          <a href="#course-description" style="color: #000;">Course Description</a> &nbsp;&nbsp;&nbsp;|
+          <a href="#schedule" style="color: #000;">Schedule</a>
+        </div>
+      </div>
+
+      <div style="padding: 3em; position: relative;">
+        <img src="./imgs/da113242-14df-4074-96b6-545b0a6b3495.png" style="width:100%; border-radius: 8%;">
+        <div style="text-align: right; margin-top: 10px; font-style: italic; font-size:0.75em;">
+          <div style="width: 97%;">
+            <em>Model: playgroundai/playground-v2.5-1024px-aesthetic</em>
+          </div>
+        </div>
+      </div>
+
+      <div class="namecard-container">
+        <div class="namecard">
+          <h6 class="namecard-header">Instructor</h6>
+          <div class="namecard-content">
+            <div class="profile-photo">
+              <a href="https://www.peterhenderson.co/" target="_blank">
+                <img src="./imgs/Peter.jpg" alt="Instructor">
+              </a>
+            </div>
+            <div class="profile-details">
+              <p><a href="https://www.peterhenderson.co/" target="_blank">Prof. Peter Henderson</a></p>
+              <p>Office Hours: By Appointment</p>
+              <p>Location: Sherrerd 302B</p>
+            </div>
+          </div>
+        </div>
+        <div class="namecard">
+          <h6 class="namecard-header">TA</h6>
+          <div class="namecard-content">
+            <div class="profile-photo">
+              <a href="https://lumos23.github.io/" target="_blank">
+                <img src="https://lumos23.github.io/assets/img/prof_pic.jpg?228444c177bc6c6ffe4704fe9f67db7f" alt="TA (Lucy He)">
+              </a>
+            </div>
+            <div class="profile-details">
+              <p><a href="https://lumos23.github.io/" target="_blank">Lucy He</a></p>
+              <p>Office Hours: By Appointment</p>
+              <p>Location: TBD</p>
+            </div>
+          </div>
+        </div>
+        <div class="namecard">
+          <h6 class="namecard-header">TA</h6>
+          <div class="namecard-content">
+            <div class="profile-photo">
+              <a href="https://theamaya.github.io/amayadharmasiri/" target="_blank">
+                <img src="https://theamaya.github.io/amayadharmasiri/images/Amaya_Dharmasiri.jpg" alt="TA (Amaya Dharmasiri)">
+              </a>
+            </div>
+            <div class="profile-details">
+              <p><a href="https://theamaya.github.io/amayadharmasiri//" target="_blank"> Amaya Dharmasiri </a></p>
+              <p>Office Hours: By Appointment</p>
+              <p>Location: TBD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <section id="course-description">
+        <h3>Course Description</h3>
+        <p>What safety risks do modern AI systems and methods pose? How can we mitigate these risks and ensure that AI systems are safe and aligned with the intention of their builder? What is currently being done to ensure that AI systems are safe? Are current safeguards sufficient? If not, how can we improve upon them? These are the questions we consider in this advanced seminar. Topics include algorithms and optimization-based methods for alignment (including reinforcement learning), sociotechnical AI safety, accountability and governance, among others. Class will generally be a short lecture (or guest lecture) followed by debates.</p>
+      </section>
+
+      <section id="grading">
+        <h3>Course Expectations & Grading</h3>
+        <div class="grading-info">
+          <h4>Components</h4>
+          <ul style="list-style: none; padding-left: 0;">
+            <li style="margin-bottom: 1em">📝 <strong>Paper Debates (25%):</strong> We will schedule 2-3 debate panels every week starting Week 2. Each panel will consist of 3-5 students and last 30-45 minutes. Each panel will focus on one research paper (or two) related to the topics that have been taught so far, and will comprise of the following structure:
+              <ul>
+                <li>Each panel will be composed of 1 presenter, 1-2 critics, and 1-2 proponents.</li>
+                <li>The presenter will start with a short presentation (8 minutes) of the paper.</li>
+                <li>The 1-2 critics will then critique the paper, similar to how reviewers assess conference papers—highlighting limitations, weaknesses, and any claims that are not well supported by the experiments.</li>
+                <li>The 1-2 proponents will respond and explain why they believe the problem does not exist or is not serious.</li>
+                <li>There will be multiple rounds of interaction. critics are asked to send their major criticisms to the proponents at least 2 days before the lecture day, so the proponents have time to research and prepare their responses.</li>
+                <li>The group will write a 2-page summary of the debate later and submit it.</li>
+                <li>Given less time to prepare, people who sign up for < week 3 will be given 5 bonus points.</li>
+              </ul>
+          </li>
+            <li style="margin-bottom: 1em">👥 <strong>Participation (25%):</strong> Active engagement in discussions (including attendance). In each class, we will cover 1-2 papers. Part of participation grade will be to submit a reading response starting in week 2 (there is a Google form linked in the schedule). These are due at 11:59pm on the day before the lecture. We will not grade the correctness but rather for effort in providing a thoughtful response and in-depth reading of the papers. </li>
+            <li style="margin-bottom: 1em">🔬 <strong>Project (50%): You should work as a team of 2 or 3 and complete a project related to the topics/themes of the course.</strong>
+              <ul style="list-style: none; padding-left: 2em; margin-top: 0.5em;">
+                <li>Project Proposal - Feb 28th (10%)</li>
+                <li>Final Presentation - April 23rd (15%)</li>
+                <li>Final Paper - May 6th (25%)</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="schedule">
+        <h3>Course Schedule</h3>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th style="width: 8%;">DATE</th>
+                <th style="width: 20%;">TOPIC</th>
+                <th style="width: 68%;">LECTURE AGENDA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1/29</td>
+                <td>Introduction</td>
+                <td>
+                  <p>What is AI safety? Class intro, logistics, foundations, etc.</p>
+                  
+                  <strong>Required Readings: N/A</strong>
+
+                </td>
+              </tr>
+              
+              <tr>
+                <td>2/5</td>
+                <td>Adversarial Robustness, Intentional Misuse, & Red Teaming</td>
+                <td>
+                  <p>If an adversary is trying to misuse a model for some purpose, how do we prevent this? How do we evaluate the limits of robustness?</p>
+                  
+                  <strong>Suggested Readings to Choose From for Debate (or suggest your own!):</strong>
+                  <ul>
+                    <li>Zou, A., et al. (2023). Universal and Transferable Adversarial Attacks 
+                        on Aligned Language Models [<a href="https://arxiv.org/abs/2307.15043">link</a>]
+                    </li>
+                    <li>Anthropic (2023). Frontier Threats Red Teaming for AI Safety 
+                        [<a href="https://www.anthropic.com/index/frontier-threats-red-teaming-for-ai-safety">link</a>]
+                    </li>
+                    <li>
+                      Li et al. (2024). LLM Defenses Are Not Robust to Multi-Turn Human Jailbreaks Yet [<a href="https://arxiv.org/abs/2408.15221?">link</a>]
+                    </li>
+
+                    <li>Zou, A., et al. (2024). Improving 
+                      Alignment and Robustness with Circuit Breakers 
+                      [<a href="https://arxiv.org/abs/2406.04313">link</a>]
+                  </li>
+
+                  <li>Andriushchenko, M., & Flammarion, N. (2024). Does Refusal Training in LLMs 
+                    Generalize to the Past Tense? 
+                    [<a href="https://arxiv.org/abs/2407.11969">link</a>]
+                </li>
+
+                <li>Lee, D., & Tiwari, M. (2023). Prompt Infection: LLM-to-LLM Prompt Injection 
+                  within Multi-Agent Systems
+                  [<a href="https://arxiv.org/abs/2410.07283">link</a>]
+              </li>
+           
+              <li>Liu, Y., Jia, Y., Geng, R., Jia, J., & Gong, N. Z. (2024). Formalizing and 
+                  Benchmarking Prompt Injection Attacks and Defenses
+                  [<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei">link</a>]
+              </li>
+          
+                </ul>
+                <strong>Other Useful Resources:</strong>
+                <ul><li>
+                  <a href="https://simonwillison.net/2023/May/2/prompt-injection-explained/">An explainer of prompt injection attacks</a>
+                </li>
+              </ul>
+                </td>
+              </tr>
+
+             
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <style>
+        body {
+          font-family: system-ui, -apple-system, sans-serif;
+          line-height: 1.5;
+          color: #333;
+          padding-bottom: 3em;
+        }
+        
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 2em;
+        }
+        
+        .header-row {
+          display: flex;
+          justify-content: space-between;
+          align-items: start;
+          margin: 2em 0;
+          flex-wrap: wrap;
+          gap: 1em;
+        }
+        
+        .namecard-container {
+          display: flex;
+          gap: 2em;
+          margin: 2em 0;
+          flex-wrap: wrap;
+        }
+        
+        .namecard {
+          flex: 1;
+          min-width: 300px;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          overflow: hidden;
+        }
+        
+        .namecard-header {
+          background: #EE7F2D;
+          color: white;
+          margin: 0;
+          padding: 1em;
+          font-weight: 600;
+        }
+        
+        .namecard-content {
+          padding: 1em;
+        }
+        
+        .profile-details p {
+          margin: 0.5em 0;
+        }
+        
+        section {
+          margin: 3em 0;
+        }
+        
+        h3 {
+          color: #EE7F2D;
+          margin-bottom: 1em;
+        }
+        
+        .table-responsive {
+          overflow-x: auto;
+        }
+        
+        .table {
+          margin-top: 1em;
+        }
+        
+        .table th {
+          background: #f8f9fa;
+          padding: 1em;
+        }
+        
+        .table td {
+          vertical-align: top;
+          padding: 1.2em 0.8em;
+        }
+        
+        .table ul {
+          padding-left: 1.2em;
+          margin-bottom: 0.5em;
+        }
+        
+        .table p {
+          margin-bottom: 0.8em;
+        }
+        
+        td strong {
+          display: block;
+          margin-top: 0.8em;
+          color: #EE7F2D;
+        }
+        
+        td a {
+          color: #2E5799;
+          text-decoration: none;
+        }
+        
+        td a:hover {
+          text-decoration: underline;
+        }
+        
+        .grading-info {
+          background: #f8f9fa;
+          padding: 2em;
+          border-radius: 8px;
+        }
+        
+        .important-notes {
+          margin-top: 2em;
+          padding-top: 2em;
+          border-top: 1px solid #ddd;
+        }
+        
+        @media (max-width: 768px) {
+          .header-row {
+            flex-direction: column;
+          }
+          
+          .namecard {
+            flex: 100%;
+          }
+        }
+      </style>
+    </div>
+  </body>
+  <footer>
+    (c) Peter Henderson 2024; credit to <a href="https://joonspk-research.github.io/cs222-fall24/">Stanford CS 222 web design.</a>
+  </footer>
+</html>
