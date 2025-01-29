@@ -97,18 +97,19 @@
         <div class="grading-info">
           <h4>Components</h4>
           <ul style="list-style: none; padding-left: 0;">
-            <li style="margin-bottom: 1em">📝 <strong>Paper Debates (25%):</strong> We will schedule 2-3 debate panels every week starting Week 2. Each panel will consist of 3-5 students and last 30-45 minutes. Each panel will focus on one research paper (or two) related to the topics that have been taught so far, and will comprise of the following structure:
+            <li style="margin-bottom: 1em">📝 <strong>Paper Debates (35%):</strong> We will schedule 3 debate panels every week starting Week 2. Each panel will consist of 3-5 students and last 30-45 minutes. Each panel will focus on one research paper (or two) related to the topics that have been taught so far, and will comprise of the following structure:
               <ul>
-                <li>Each panel will be composed of 1 presenter, 1-2 critics, and 1-2 proponents.</li>
+                <li>Each panel will be composed of 1-2 presenters, 1-2 critics, and 1-2 proponent.</li>
                 <li>The presenter will start with a short presentation (8 minutes) of the paper.</li>
-                <li>The 1-2 critics will then critique the paper, similar to how reviewers assess conference papers—highlighting limitations, weaknesses, and any claims that are not well supported by the experiments.</li>
-                <li>The 1-2 proponents will respond and explain why they believe the problem does not exist or is not serious.</li>
-                <li>There will be multiple rounds of interaction. critics are asked to send their major criticisms to the proponents at least 2 days before the lecture day, so the proponents have time to research and prepare their responses.</li>
-                <li>The group will write a 2-page summary of the debate later and submit it.</li>
-                <li>Given less time to prepare, people who sign up for < week 3 will be given 5 bonus points.</li>
+                <li>The critic will then critique the paper, similar to how reviewers assess conference papers—highlighting limitations, weaknesses, and any claims that are not well supported by the experiments.</li>
+                <li>The proponent will respond and explain why they believe the problem does not exist or is not serious.</li>
+                <li>There will be multiple rounds of interaction and after opening arguments, we will open it up to the class for discussion.</li>
+                <!-- <li>The group will write a 2-page summary of the debate later and submit it.</li> -->
+                <li>You must sign up for 2 debates/discussions in the semester, once your debate group has picked a paper you must send it to me by Sunday 11:59pm before the class where the debate will take place.</li>
+                <li>Given less time to prepare, people who sign up for < week 3 you can get 10 bonus points up to an A for the debate or you can waive 2 reading responses.</li>
               </ul>
           </li>
-            <li style="margin-bottom: 1em">👥 <strong>Participation (25%):</strong> Active engagement in discussions (including attendance). In each class, we will cover 1-2 papers. Part of participation grade will be to submit a reading response starting in week 2 (there is a Google form linked in the schedule). These are due at 11:59pm on the day before the lecture. We will not grade the correctness but rather for effort in providing a thoughtful response and in-depth reading of the papers. </li>
+            <li style="margin-bottom: 1em">👥 <strong>Participation (15%):</strong> Active engagement in discussions (including attendance). Part of participation grade will be to submit a freeform reading response on any paper related to the topic at least 4 times via Canvas. These are due at 11:59pm on the day before the lecture. We will not grade the correctness but rather for effort in providing a thoughtful response and in-depth reading of the papers. </li>
             <li style="margin-bottom: 1em">🔬 <strong>Project (50%): You should work as a team of 2 or 3 and complete a project related to the topics/themes of the course.</strong>
               <ul style="list-style: none; padding-left: 2em; margin-top: 0.5em;">
                 <li>Project Proposal - Feb 28th (10%)</li>
@@ -138,16 +139,16 @@
                 <td>
                   <p>What is AI safety? Class intro, logistics, foundations, etc.</p>
                   
-                  <strong>Required Readings: N/A</strong>
+                  <strong>Readings: N/A</strong>
 
                 </td>
               </tr>
               
               <tr>
                 <td>2/5</td>
-                <td>Adversarial Robustness, Intentional Misuse, & Red Teaming</td>
+                <td>Specification and Robustness</td>
                 <td>
-                  <p>If an adversary is trying to misuse a model for some purpose, how do we prevent this? How do we evaluate the limits of robustness?</p>
+                  <p>Adversarial Robustness and Misuse: If an adversary is trying to misuse a model for some purpose, how do we prevent this? How do we evaluate the limits of robustness?</p>
                   
                   <strong>Suggested Readings to Choose From for Debate (or suggest your own!):</strong>
                   <ul>
@@ -175,6 +176,13 @@
                   within Multi-Agent Systems
                   [<a href="https://arxiv.org/abs/2410.07283">link</a>]
               </li>
+
+              <li>
+                Andriushchenko et al. (2024). Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks [<a href="https://arxiv.org/abs/2404.02151">link</a>]
+              </li>
+              <li>
+                Anil et al. (2024). Many-shot Jailbreaking [<a href="https://www.anthropic.com/research/many-shot-jailbreaking">link</a>]
+              </li>
            
               <li>Liu, Y., Jia, Y., Geng, R., Jia, J., & Gong, N. Z. (2024). Formalizing and 
                   Benchmarking Prompt Injection Attacks and Defenses
@@ -190,6 +198,100 @@
                 </td>
               </tr>
 
+              <tr>
+                <td>2/12</td>
+                <td>Specification and Robustness</td>
+                <td>
+                  <p>Alignment: How do we specify the right rewards? What happens when rewards are misspecified or underspecified? How do we reliably align models to human values? Whose values?</p>
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td>2/19</td>
+                <td>Specification and Robustness</td>
+                <td>
+                  <p>Reward Hacking and Scalable Oversight </p>
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td>2/26</td>
+                <td>Assurance</td>
+                <td>
+                  <p>Evaluation and Red Teaming: What can go wrong with evaluation for safety? What about evaluation more broadly? How do we properly evaluate models?</p>
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td>3/5</td>
+                <td>Assurance</td>
+                <td><p>Monitoring and Leveraging Sociotechnical Understanding to Mitigate Harmful Failures</p>
+
+                </td>
+              </tr>
+
+              <tr>
+                <td>3/12</td>
+                <td>Spring Recess</td>
+                <td>
+                 No class!
+                </td>
+              </tr>
+
+              <tr>
+                <td>3/19</td>
+                <td>Assurance</td>
+                <td>
+                  <p>Mechanistic Interpretability</p>
+                  
+
+                </td>
+              </tr>
+
+              <tr>
+                <td>3/26</td>
+                <td>Governance</td>
+                <td><p>Regulation: Should we be regulating compute? Use? Something else?</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td>4/2</td>
+                <td>Governance</td>
+                <td>
+                  <p>Economic Impacts</p>
+                
+                </td>
+              </tr>
+
+              <tr>
+                <td>4/9</td>
+                <td>Governance</td>
+                <td>
+                  <p>Concentration of Power</p>
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td>4/16</td>
+                <td>Floating Day based on class vote</td>
+                <td>
+                  TBD
+                </td>
+              </tr>
+
+              <tr>
+                <td>4/23</td>
+                <td>Student Presentations</td>
+                <td>
+                  <p>Final Project Presentations and Wrapup</p>
+                
+                </td>
+              </tr>
              
             </tbody>
           </table>
