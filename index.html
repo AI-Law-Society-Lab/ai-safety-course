@@ -246,7 +246,7 @@
                 <td>2/12</td>
                 <td>Specification and Robustness</td>
                 <td>
-                  <p>Alignment: How do we specify the right rewards? What happens when rewards are misspecified or underspecified? How do we reliably align models to human values? Whose values?</p>
+                  <p>Alignment: How do we specify the right rewards? What happens when rewards are misspecified or underspecified? How do we reliably align models to human values?</p>
                   <a href="https://forms.gle/EwtuuiJAnLqWeiTRA">Week 3 pre-debate form</a>
                   <strong>Suggested Readings to Choose From for Debate (or suggest your own!):</strong>
                 <ul>
@@ -336,8 +336,9 @@
                 <td>2/19</td>
                 <td>Specification and Robustness</td>
                 <td>
-                  <p>Scalable Oversight and Monitoring: What do we do when it's really difficult to monitor and steer models with human oversight? What if most humans can't even accomplish the task?</p>
+                  <p>Scalable Oversight: What do we do when it's really difficult to monitor and steer models with human oversight? What if most humans can't even accomplish the task? How can we align to human values at scale? Whose values?</p>
                   <a href="https://forms.gle/cEhcVLzjCLRbUnkr5">Week 4 pre-debate form</a>
+
                   <strong>Suggested Readings to Choose From for Debate (or suggest your own!):</strong>
                 <ul>
                   <b>Scalable Oversight</b>
@@ -408,15 +409,120 @@
                 <td>2/26</td>
                 <td>Assurance</td>
                 <td>
-                  <p>Evaluation and Red Teaming: What can go wrong with evaluation for safety? What about evaluation more broadly? How do we properly evaluate models?</p>
-                  
+                  <p>Mechanistic Interpretability: How can we</p>
+                  <strong>Suggested Readings to Choose From for Debate (or suggest your own!):</strong>
+
+                  <ul>
+                    <b>Foundational Work</b>
+                    <li> Sharkey et al., Open Problems in Mechanistic Interpretability [<a href="https://arxiv.org/abs/2501.16496">[link]</a>]</li>
+<li>Elhage et al. A Mathematical Framework for Transformer Circuits
+[<a href="https://transformer-circuits.pub/2021/framework/index.html">link</a>]
+</li>
+<b>Superposition</b>
+<li>Elhage et al. Toy Models of Superposition
+[<a href="https://transformer-circuits.pub/2022/toy_model/index.html">link</a>]
+</li>
+<li>Gurnee et al. Finding Neurons in a Haystack
+[<a href="https://arxiv.org/pdf/2305.01610.pdf">link</a>]
+</li>
+<li>Nanda & Rajamanoharan et al. Fact Finding
+[<a href="https://www.lesswrong.com/posts/iGuwZTHWb6DFY3sKB/fact-finding-attempting-to-reverse-engineer-factual-recall">link</a>]
+</li>
+<b>Sparse Autoencoders (SAEs)</b>
+<li>Bricken et al. Towards Monosemanticity
+[<a href="https://transformer-circuits.pub/2023/monosemantic-features/index.html">link</a>]
+</li>
+<li>Marks et al. Sparse Feature Circuits
+[<a href="https://arxiv.org/abs/2403.19647">link</a>]
+</li>
+<li>Dunefsky, Chlenski et al. Transcoders Find Interpretable LLM Feature Circuits
+[<a href="https://arxiv.org/abs/2406.11944">link</a>]
+</li>
+<li>Kissane & Krzyzanowski et al. Interpreting Attention Layer Outputs with Sparse Autoencoders
+[<a href="https://arxiv.org/abs/2406.17759">link</a>]
+</li>
+<li>Makelov & Lange et al. Towards Principled Evaluations of Sparse Autoencoders
+[<a href="https://arxiv.org/abs/2405.08366">link</a>]
+</li>
+<li>Rajamanoharan et al. Gated SAEs
+[<a href="https://arxiv.org/abs/2404.16014">link</a>]
+</li>
+<li>Gao et al. Scaling and Evaluating Sparse Autoencoders
+[<a href="https://cdn.openai.com/papers/sparse-autoencoders.pdf">link</a>]
+</li>
+<li>Templeton et al. Scaling Monosemanticity
+[<a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html">link</a>]
+</li>
+<b>Activation Patching</b>
+<li>Heimersheim & Nanda. How to Use and Interpret Activation Patching
+[<a href="https://arxiv.org/abs/2404.15255">link</a>]
+</li>
+<li>Redwood. Causal Scrubbing
+[<a href="https://www.lesswrong.com/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing">link</a>]
+</li>
+<li>Nanda. Attribution Patching
+[<a href="https://www.neelnanda.io/mechanistic-interpretability/attribution-patching">link</a>]
+</li>
+<li>Conmy et al. Automated Circuit Discovery
+[<a href="https://arxiv.org/abs/2304.14997">link</a>]
+</li>
+<li>Geiger et al. Distributed Alignment Search
+[<a href="https://arxiv.org/abs/2303.02536">link</a>]
+</li>
+<li>Makelov & Lange. An Interpretability Illusion for Subspace Activation Patching
+[<a href="https://arxiv.org/abs/2311.17030">link</a>]
+</li>
+<b>Narrow Circuits</b>
+<li>Wang et al. Indirect Object Identification
+[<a href="https://arxiv.org/abs/2211.00593">link</a>]
+</li>
+<li>Hanna et al. A Greater-Than Circuit
+[<a href="https://arxiv.org/abs/2305.00586">link</a>]
+</li>
+<li>Lieberum et al. Does Circuit Analysis Interpretability Scale?
+[<a href="https://arxiv.org/abs/2307.09458">link</a>]
+</li>
+<b>Others</b>
+<li>Olsson et al. The Induction Heads Paper
+[<a href="https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html">link</a>]
+</li>
+<li>Nanda et al. Progress Measures for Grokking via Mechanistic Interpretability
+[<a href="https://arxiv.org/abs/2301.05217">link</a>]
+</li>
+<li>Nostalgebraist. The Logit Lens
+[<a href="https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens">link</a>]
+</li>
+<li>McGrath et al. The Hydra Effect
+[<a href="https://arxiv.org/abs/2307.15771">link</a>]
+</li>
+<li>McDougall, Conmy & Rushing et al. Copy Suppression
+[<a href="https://arxiv.org/abs/2310.04625">link</a>]
+</li>
+<li>Tigges & Hollinsworth et al. Linear Representations of Sentiment
+[<a href="https://arxiv.org/pdf/2310.15154.pdf">link</a>]
+</li>
+<li>Elhage et al. Softmax Linear Units
+[<a href="https://transformer-circuits.pub/2022/solu/index.html">link</a>]
+</li>
+<li>Bills et al. Language Models Can Explain Neurons in Language Models
+[<a href="https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html">link</a>]
+</li>
+<li>Bolukbasi et al. An Interpretability Illusion for BERT
+[<a href="https://arxiv.org/pdf/2104.07143.pdf">link</a>]
+</li>
+<li>Goh et al. Multimodal Neurons in Artificial Neural Networks
+[<a href="https://distill.pub/2021/multimodal-neurons/">link</a>]
+</li>
+                  </ul>
                 </td>
               </tr>
 
               <tr>
                 <td>3/5</td>
                 <td>Assurance</td>
-                <td><p>Monitoring and Leveraging Sociotechnical Understanding to Mitigate Harmful Failures</p>
+                <td><p>Leveraging Sociotechnical Understanding to Mitigate Harmful Failures: How can we make sure that we understand the broader context of deployments? What deployments are risky? How do we think about government uses of AI versus private sector? Is there a difference? How should sociotechnical understanding change algorithm design?</p>
+                  
+                  <p>Guest speaker: <a href="https://www.boazbarak.org/">Boaz Barak</a></p>
 
                 </td>
               </tr>
@@ -433,7 +539,7 @@
                 <td>3/19</td>
                 <td>Assurance</td>
                 <td>
-                  <p>Mechanistic Interpretability, Monitoring, and Control</p>
+                  <p>Monitoring and Control</p>
                   
                   <p>Guest speaker: <a href="https://ece.princeton.edu/people/jaime-fernandez-fisac">Jaime Fernández Fisac</a></p>
 
@@ -452,7 +558,7 @@
                 <td>4/2</td>
                 <td>Governance</td>
                 <td>
-                  <p>Economic Impacts</p>
+                  <p>Evaluation and Red Teaming: What can go wrong with evaluation for safety? What about evaluation more broadly? How do we properly evaluate models?</p>
                   Guest Speaker: <a href="https://nicholas.carlini.com/">Nicholas Carlini</a>
                 </td>
               </tr>
@@ -468,9 +574,9 @@
 
               <tr>
                 <td>4/16</td>
-                <td>Floating Day based on class vote</td>
+                <td>Governance</td>
                 <td>
-                  TBD
+                  <p>Economic Impacts</p>
                 </td>
               </tr>
 
